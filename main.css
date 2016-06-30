@@ -26,15 +26,14 @@ div.boxes {
   -moz-column-gap: 20px;
   column-gap: 20px;
   padding: 400px 20px 20px 20px;
-
 }
 .boxAbout, .boxPortfolio, .boxContact {
   height: 200px;
   background-color: rgba(247, 72, 7, .5);
-  padding-top: 50px;
+  padding-top: 100px;
   border-top: 5px solid white;
 }
-h1 {
+h1, a {
   color: white;
   opacity: 1;
   text-align: center;
@@ -42,4 +41,11 @@ h1 {
   font-size: 1.3em;
   text-transform: uppercase;
   vertical-align: middle;
+  text-decoration: none;
+  transition: opacity 2s;
+  transition: font-size 1s;
+}
+a:hover {
+  opacity: .5;
+  font-size: 1.7em;
 }
