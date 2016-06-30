@@ -1,9 +1,13 @@
-.container {
-  background-image: url(http://i.imgur.com/4YCQW1j.jpg);
-  background-repeat: no-repeat;
+html {
+  background: url(http://i.imgur.com/4YCQW1j.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  margin: auto;
+}
+.container {
   position: relative;
+  margin: auto;
 }
 .main {
   margin: auto;
