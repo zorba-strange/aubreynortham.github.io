@@ -1,0 +1,37 @@
+.container {
+  background-image: url(http://i.imgur.com/4YCQW1j.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.main {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+#name {
+  width: 500px;
+}
+div.boxes {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  padding-top: 300px;
+}
+.boxAbout, .boxPortfolio, .boxContact {
+  height: 200px;
+  background-color: rgb(247, 72, 7);
+  opacity: .5;
+  padding-top: 50px;
+}
+h1 {
+  color: white;
+  opacity: 1;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
