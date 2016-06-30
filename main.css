@@ -8,19 +8,18 @@ html {
 .container {
   position: relative;
   margin: auto;
+  width: 100%;
 }
 .main {
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0);
-  position: absolute;
+  margin: 10em auto 0 auto;
+  /*background-color: rgba(0, 0, 0, 0);
+  position: absolute;*/
+  text-align: center;
 }
+
 #name {
+  margin: 0 auto;
   width: 500px;
-  position: fixed;
-  top: 25%;
-  left: 25%;
-  margin-top: -50px;
-  margin-left: -50px;
 }
 div.boxes {
   -webkit-column-count: 3;
@@ -29,15 +28,24 @@ div.boxes {
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
   column-gap: 20px;
-  padding: 400px 20px 20px 20px;
+  margin-top: 5em;
+  height: 40%;
+  width: 100%;
+  position: relative;;
 }
 .boxAbout, .boxPortfolio, .boxContact {
+  text-align: center;
+  margin: auto 4em;
   height: 200px;
+  width: 290px;
   background-color: rgba(247, 72, 7, .5);
-  padding-top: 100px;
+  /*padding-top: 100px;*/
   border-top: 5px solid white;
+  /*position: absolute;*/
 }
 h1, a {
+  margin-top: 3.5em;
+  text-align: center;;
   color: white;
   opacity: 1;
   text-align: center;
@@ -53,3 +61,5 @@ a:hover {
   opacity: .5;
   font-size: 1.7em;
 }
+
+
